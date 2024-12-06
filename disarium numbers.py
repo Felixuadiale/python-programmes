@@ -6,7 +6,7 @@ def calculateLength(n):
         n = n//10;    
     return length;    
      
-num = 145;    
+num = 1451;    
 rem = sum = 0;    
 len = calculateLength(num);    
      
