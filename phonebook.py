@@ -16,4 +16,18 @@ def initialphone_book():
         phone_book.append(temp)
     print( phone_book )
     return phone_book
+def addcontext(pb):
+    dip=[]
+    for i in range(len(pb[0])):
+        if i==0:
+            dip.append(str(input("Enter name"))) 
+        if i==1:
+            dip.append(int(input("Enter number")))
+        pb.append(dip)
+    return pb
+        
 pb=initialphone_book()
+add=input("Do you want to add a new contact")
+if add=="y":
+    
+ addcontext(pb)
