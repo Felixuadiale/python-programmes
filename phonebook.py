@@ -27,7 +27,8 @@ def addcontext(pb):
     return pb
         
 pb=initialphone_book()
-add=input("Do you want to add a new contact")
+add=input("Do you want to add a new contact(y/n)")
 if add=="y":
     
- addcontext(pb)
+    pb=addcontext(pb)
+    print(pb)

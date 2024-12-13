@@ -1,0 +1,6 @@
+myfile=open("C:/Users/HP/Documents/python programmes/fileone.txt")
+print(myfile.read())
+myfile.close()
+fileone=open("C:/Users/HP/Documents/python programmes/fileone.txt","w")
+fileone.write("i have learnt read and write operation")
+fileone.close()
