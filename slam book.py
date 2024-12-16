@@ -22,9 +22,9 @@ def initial_slambook():
 			  temp.append(str(input("Enter you hobbies: ")))
 			  if temp[j] == '' or temp[j] == ' ':
 				  temp[j] = None
-		  if j == 3:
+if j == 3:
 			  temp.append(str(input("Enter your favorite color, animal, number, sport, B.F.F, and grade: ")))
-			  if temp[j] == '' or temp[j] == ' ':
+if temp[j] == '' or temp[j] == ' ':
 				  temp[j] = None
 		  if j == 4:
 			  temp.append(str(input("Enter something you hate and like about the person who made this slambook: ")))
