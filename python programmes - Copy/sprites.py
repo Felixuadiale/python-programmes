@@ -72,3 +72,10 @@ class Sprite(pygame.sprite.Sprite):
 
      all_sprites_list.update()
      screen.fill(BLUE)
+
+     all_sprites_list.draw(screen)
+
+     pygame.display.flip()
+     clock.tick(240)
+
+     pygame.quit
