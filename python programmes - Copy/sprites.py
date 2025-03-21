@@ -32,7 +32,9 @@ class Sprite(pygame.sprite.Sprite):
 
    if self.rect. left <=0 or self.rect.right>=400:
     self.velocity[0 ]= -self.velocity[0]
-    boundary_hit = True
+    boundary_hit= True
+    
+    dary_hit = True
    if boundary_hit:
      pygame.event.post(pygame.event.Event(SPRITE_COLOR_CHANGE_EVENT))
  def change_color(self):
@@ -45,15 +47,6 @@ class Sprite(pygame.sprite.Sprite):
   sp1.rect.x=0
   sp1.rect.y=0
   screen = pygame.display.set_mode((500,400))
-  
-
-
-
-
-
-
-
-
   screen.fill(BLUE)
   exit= False
 
@@ -78,4 +71,4 @@ class Sprite(pygame.sprite.Sprite):
      pygame.display.flip()
      clock.tick(240)
 
-     pygame.quit
+     pygame.quit()

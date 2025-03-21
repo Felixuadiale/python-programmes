@@ -1,0 +1,19 @@
+import math
+import pygame
+import random
+
+
+SCREEN_WIDTH=800
+SCREN_HEIGHT=500
+PLAYER_START_X=370
+PLAYER_START_Y=300
+ENEMY_START_Y_MIN=50
+ENEMY__START_Y_MAX=150
+ENEMY_SPEED_Y=40
+BULLET_SPEED_Y=10
+COLLISION_DISTANCE=27
+
+pygame.init()
+screen=pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
+ 
+backgroud
