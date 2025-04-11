@@ -7,7 +7,7 @@ window = Tk()
 window.title("Condingal's Text Editor")
 window.geometry("600x500")
 window.rowconfigure(0, minsize=800, weight=1)
-window.columnconfigure(1, minzize=800, weight=1)
+window.columnconfigure(1, minsize=800, weight=1)
 
 
 def open_file():
@@ -28,7 +28,7 @@ def open_file():
 
 txt_edit = Text(window)
 
-fr_buttons = Frame(window, text="Open", command=open_file)
+fr_buttons = Frame(window)
 btn_open = Button(fr_buttons,text="Open", command=open_file)
 
 btn_open.grid(row=0, column=0, sticky="ew", padx=5, pady=5)
