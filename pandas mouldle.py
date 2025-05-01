@@ -8,4 +8,5 @@ exam_data  ={'name':["Anastasia", "Dima","Katherine","James","Emily","Micheal","
 labels = ["a","b","c","d","e","f","g","h","i","j"]
 df =pd.DataFrame(exam_data , index=labels)
 print("Summary of the basic information about this DataFrame and its dat:")
-print(df.info)
+print(df.info())
+print(df)
