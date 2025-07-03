@@ -13,6 +13,6 @@ while number > 0:
 
 
 if original_number == reversed_number:
-    print(f"{original_number}is a palindrome" )
+    print(f"{original_number} is a palindrome" )
 else:
     print(f"{original_number} is not palindrome")

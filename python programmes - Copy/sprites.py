@@ -4,12 +4,9 @@ pygame.init()
 SPRITE_COLOR_CHANGE_EVENT = pygame.USEREVENT + 1
 BACKGROUND_COLOR_CHANGE_EVENT = pygame.USEREVENT + 2
 
-
 BLUE = pygame.Color('blue')
 LIGHTBLUE = pygame.Color('lightblue')
 DARKBLUE = pygame.Color('darkblue')
-
-
 YELLOW = pygame.Color('yellow')
 MAGENTA = pygame.Color('magenta')
 ORANGE = pygame.Color('orange')
@@ -67,7 +64,7 @@ class Sprite(pygame.sprite.Sprite):
      screen.fill(BLUE)
 
      all_sprites_list.draw(screen)
-
+     
      pygame.display.flip()
      clock.tick(240)
 

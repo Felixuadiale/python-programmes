@@ -6,7 +6,7 @@ def checkIfSame(number1, number2):
     else:
         print("Numbers are not equal")
 
-number1 = int(input("Enter first umber to compare :"))
+number1 = int(input("Enter first number to compare :"))
 number2 = int(input("Enter second number to compar :"))
 
 checkIfSame(number1, number2)
