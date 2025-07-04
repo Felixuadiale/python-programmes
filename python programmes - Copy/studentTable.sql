@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS STUDENT (
+ROLL_NO TEXT PRIMARY KEY,
+NAME TEXT NOT NULL,
+ADDRESS TEXT,
+PHONE TEXT,
+AGE INTERGER
+);
+
+
+INSERT INTO  VALUES
+( '1 ' , 'RAM' , 'DELHI', '*****', 18),
+( '2 ' , 'RAMESH' , 'GURGON', '67849495', 18),
+( '3 ' , 'SUJIT' , 'ROHTAK', '*****', 20),
+( '4 ' , 'SURESH' , 'DELHI', '*****', 18),
+( '5 ' , 'AMAN' , 'RHOTAK', '*****', 18);
+
+SELECT * FROM STUDENT;
