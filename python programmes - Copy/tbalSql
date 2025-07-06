@@ -1,0 +1,15 @@
+CREATE supplier (
+SNO TEXT PRIMARY KEY,
+CITY TEXT,
+STATUS INTEGER,
+LANGUAGE SPOKEN,
+
+)
+
+
+INSERT INTO supplier values
+('S1', 'London', 20, 'French"'),
+('S2' ,'Paris' , 10, 'French'),
+('S3 ', 'Indi', 30, 'Hindi');
+
+SELECT * FROM supplier ;
